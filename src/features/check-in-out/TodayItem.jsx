@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 import Tag from '../../ui/Tag'
-import { Flag } from '../../ui/Flag'
 import Button from '../../ui/Button'
-import { Link } from 'react-router-dom'
 import CheckoutButton from './CheckoutButton'
+import { Flag } from '../../ui/Flag'
+import { Link } from 'react-router-dom'
+
 const StyledTodayItem = styled.li`
 	display: grid;
 	grid-template-columns: 9rem 2rem 1fr 7rem 9rem;
